@@ -10,4 +10,6 @@ RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTr
 
 COPY app.py .
 
+ENV TRANSFORMERS_OFFLINE=1
+
 ENTRYPOINT ["python", "app.py"]
