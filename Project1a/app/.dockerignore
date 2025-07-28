@@ -1,0 +1,16 @@
+# Ignore the Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore local development artifacts
+.vscode/
+
+# Ignore local input and output files
+# These should be mounted as volumes, not built into the image
+input/
+output/
+
+# Ignore Git directory
+.git/
+.gitignore

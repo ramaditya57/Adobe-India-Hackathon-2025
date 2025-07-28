@@ -1,0 +1,25 @@
+{
+  "title": "sample1",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Understanding AI",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Introduction",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "History of AI",
+      "page": 1
+    },
+    {
+      "level": "H1",
+      "text": "Core Concepts",
+      "page": 1
+    }
+  ]
+}

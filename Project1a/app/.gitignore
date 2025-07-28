@@ -1,0 +1,21 @@
+# Ignore Python virtual environment
+venv/
+/venv/
+.venv/
+
+# Ignore output JSON files
+app/input/output/*.json
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore Docker-related files if not needed
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db

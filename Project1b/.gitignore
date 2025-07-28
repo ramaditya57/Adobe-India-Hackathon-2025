@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+/venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor directories
+.vscode/
+.idea/
+
+# Local data and output files
+# These are for testing and should not be committed to the repository.
+Collection1/
+Collection 2/
+*.json
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables file
+.env

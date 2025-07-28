@@ -1,0 +1,18 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore local test data and output files.
+# These should be mounted as volumes, not built into the image.
+Collection1/
+Collection 2/
+*.json
+
+# Ignore IDE and Git files
+.vscode/
+.git/
+.gitignore
+
+# Ignore the README file as it's not needed for the application to run
+README.md
